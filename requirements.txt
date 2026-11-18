@@ -1,0 +1,32 @@
+APP_NAME=The Tiebreaker
+APP_ENV=development
+DEBUG=true
+
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-
+# FastAPI
+fastapi
+uvicorn[standard]
+
+# Validation
+pydantic
+pydantic-settings
+python-dotenv
+
+# PostgreSQL
+sqlalchemy[asyncio]
+asyncpg
+alembic
+asyncpg
+
+# MongoDB
+motor
+pymongo
+
+# Gemini AI
+google-genai
+
+# Testing
+pytest
+pytest-asyncio
+httpx
